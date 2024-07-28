@@ -1,0 +1,48 @@
+.timer {
+  height: 110px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 29px;
+  padding-bottom: 25px;
+}
+
+.timeAndStart {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.remainingTime {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 39.6px;
+}
+
+.presetTime {
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 11px;
+}
+
+.play {
+  width: 56px;
+  height: 56px;
+}
+
+.vector {
+  width: 5px;
+  height: 8px;
+}
+
+.timerEdit {
+  display: flex;
+}
+
+.deleteImg {
+  width: 20px;
+  height: 20px;
+}

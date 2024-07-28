@@ -1,0 +1,65 @@
+.controlTimer {
+  width: 380px;
+  min-height: 422px;
+  padding: 22px 26px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.remainingTime {
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+}
+
+.borderContainerTime {
+  border-radius: 50%;
+  width: 257px;
+  height: 257px;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+
+.containerTime {
+  width: 251px;
+  height: 251px;
+  padding-top: 103px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #1A1F23;
+  margin-top: 3px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 32px;
+  width: 161px;
+  height: 44px;
+  border: 0px solid;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.buttonPause {
+  background: #F9891C;
+}
+
+.buttonCancel {
+  background: #757677;
+}
+
+.timers {
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration-line: underline;
+  color: #29A354;
+  margin-bottom: 16px;
+}

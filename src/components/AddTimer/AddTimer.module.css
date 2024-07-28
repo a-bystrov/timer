@@ -1,0 +1,58 @@
+.addTimer {
+  padding: 23px 26px;
+  min-height: 422px;
+}
+
+.cancel {
+  color: #29A354;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration-line: underline;
+  margin-bottom: 27px;
+}
+
+.headerAddTimer {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 14px;
+}
+
+.time {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.inputTime {
+  width: 60px;
+  border: none;
+  background: none;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  outline: none;
+}
+
+.unitsTime {
+  margin-right: 10px;
+}
+
+.buttonStart {
+  width: 206px;
+  height: 56px;
+  font-size: 20px;
+  background: #29A354;
+  border: 0px solid;
+  border-radius: 32px;
+  color: white;
+  font-weight: 800;
+}
+
+.timeAndButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

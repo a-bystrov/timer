@@ -1,0 +1,32 @@
+.mainPage {
+  padding: 12px 26px;
+  min-height: 422px;
+}
+
+.header {
+  display: flex;
+  width: 338px;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  color: #29A354;
+  margin-bottom: 14px;
+}
+
+.edit {
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration-line: underline;
+}
+
+.addTimer {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.headerTimers {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
